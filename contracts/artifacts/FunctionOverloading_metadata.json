@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "wallet",
+						"type": "uint256"
+					}
+				],
+				"name": "x",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "lightSwitch",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "wallet",
+						"type": "uint256"
+					}
+				],
+				"name": "x",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Exercise4.sol": "FunctionOverloading"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Exercise4.sol": {
+			"keccak256": "0x10cdbfa971d4727bea94df8234680e40ca20bd100ae5f06419eea79c8d7078ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8fb28a4bd5eda5fd898af006795ed3c165987dab961a2dffed9e91ffb24adaab",
+				"dweb:/ipfs/QmWAvQHrsvfbiTd9Noa5TZi12c8VTJMwtPg9hHaG54Q5Xt"
+			]
+		}
+	},
+	"version": 1
+}
