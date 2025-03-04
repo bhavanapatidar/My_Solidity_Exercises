@@ -12,13 +12,29 @@ you can overload function declarations the differ only by return type
 
 contract FunctionOverloading{
 
-    function x(uint lightSwitch, uint wallet) public{
+    // function x(uint lightSwitch, uint wallet) public{
 
+    // }
+
+    // function x(uint wallet)public{
+
+    // }
+
+    function getSum(uint a, uint b) public pure returns (uint){
+        return a + b;
+    }
+    function getSum(uint a , uint b, uint c) public pure returns(uint){
+        return a + b +c;
     }
 
-    function x(uint wallet)public{
-
+    function getSunTwoArgs() public pure returns(uint){
+       return  getSum(2,3);
     }
+    function getSumThreeArgs() public pure returns(uint){
+       return getSum(2, 3 ,5);
+    }
+
+    
 }
 /*
 Exercise:
